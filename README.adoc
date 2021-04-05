@@ -15,7 +15,7 @@ limitations under the License.
 ////
 = Parametric Bonsai Nebari Groundplate
 
-OpenSCAD file to generate a circular platform of defined diameter.
+OpenSCAD (https://www.openscad.org) file to generate a circular platform of defined diameter.
 If printed in PLA (https://en.wikipedia.org/wiki/Polylactic_acid), it will be an ecological and biodegradable tool to optimize your bonsai root development.
 It has been designed with the aim of educating the radial growth of the roots avoiding entanglements between them and a balanced distribution to obtain the best nebari of your future bonsai.
 The spaced and concentric divisions provide a correct channeling of root growth.
