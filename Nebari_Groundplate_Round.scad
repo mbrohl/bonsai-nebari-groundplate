@@ -37,6 +37,7 @@ drillCenterHole = false;
 centerHoleDia = 10;
 
 // === don't change anything below ===
+$fn = $preview ? 32 : 80;
 groundPlateRadius = groundPlateDia / 2;
 centerSpaceRadius = centerSpaceDia / 2;
 
@@ -76,11 +77,11 @@ module nebariPlate() {
 
         for(i = [0 : dividerCount]) {
             rotate([0, 0, i * dividerAngle]) 
-              translate([centerSpaceRadius - 0.5, 0, 0])
+              translate([centerSpaceRadius - 0.05, 0, 0])
                 longDivider();
 
             rotate([0, 0, i * dividerAngle + dividerAngle/2 ])
-              translate([centerSpaceRadius + shortDividerLength - 0.5, 0, 0])
+              translate([centerSpaceRadius + shortDividerLength - 0.05, 0, 0])
                 shortDivider();
         }
     }    
